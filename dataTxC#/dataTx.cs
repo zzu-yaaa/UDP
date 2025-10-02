@@ -16,11 +16,13 @@ class dataTx
 
     static void Main(string[] args)
     {
-        Console.WriteLine("데이터 수신 시작");
+        Console.WriteLine("데이터 송신 시작");
 
-        // (1) UdpClient 객체 성성 및 연결
-        UdpClient udpClient = new UdpClient();
-        udpClient.Connect(clientIp, clientPort);
+        Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+        s.EnableBroadcast = true;
+
+        IPAddress broadcast = IPAddress.Parse(clientIp);
+        IPEndPoint ep = new IPEndPoint(broadcast, clientPort);
 
         var sw = Stopwatch.StartNew();
         long nextDeadline = sw.ElapsedTicks; //현재 스톱워치 틱
@@ -37,7 +39,7 @@ class dataTx
                 Timestamp = (UInt64)DateTimeOffset.UtcNow.ToUnixTimeMilliseconds(),
             };
             byte[] datagram = packet.Serialize();
-            udpClient.Send(datagram, PacketSize);
+            s.SendTo(datagram, ep);
 
             Console.WriteLine("[Send] {0}:{1} 바이트 전송", i, datagram.Length);
 
@@ -56,9 +58,6 @@ class dataTx
         }
 
         sw.Stop();
-
-        // (3) 자원 해제
-        udpClient.Close();
 
         Console.WriteLine("데이터 송신 종료, {0} seconds", sw.ElapsedMilliseconds / 1000);
     }

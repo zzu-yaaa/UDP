@@ -1,0 +1,15 @@
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\bin\Debug\net8.0\dataTxC#.exe
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\bin\Debug\net8.0\dataTxC#.deps.json
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\bin\Debug\net8.0\dataTxC#.runtimeconfig.json
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\bin\Debug\net8.0\dataTxC#.dll
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\bin\Debug\net8.0\dataTxC#.pdb
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.AssemblyInfoInputs.cache
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.AssemblyInfo.cs
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.csproj.CoreCompileInputs.cache
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.sourcelink.json
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.dll
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\refint\dataTxC#.dll
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.pdb
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\dataTxC#.genruntimeconfig.cache
+C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataTxC#\obj\Debug\net8.0\ref\dataTxC#.dll

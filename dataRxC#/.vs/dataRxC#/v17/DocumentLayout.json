@@ -3,15 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datarxc#\\datatx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|solutionrelative:datatx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34365EE6-FDA5-4DE2-BA76-2E4BC4CC326F}|..\\dataTxC#\\dataTxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datatxc#\\datatx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datarxc#\\datarx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|solutionrelative:datarx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datarxc#\\packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C170BE0D-63B9-4367-BC59-EF6253E7B5BC}|dataRxC#.csproj|solutionrelative:packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34365EE6-FDA5-4DE2-BA76-2E4BC4CC326F}|..\\dataTxC#\\dataTxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datatxc#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34365EE6-FDA5-4DE2-BA76-2E4BC4CC326F}|..\\dataTxC#\\dataTxC#.csproj|c:\\users\\dso9\\documents\\lig\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCsw\uC2A4\uCFE8\\final\\datarxtest\\datatxc#\\packet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,38 +30,49 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "dataTx.cs",
-              "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\dataTx.cs",
-              "RelativeDocumentMoniker": "dataTx.cs",
-              "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\dataTx.cs",
-              "RelativeToolTip": "dataTx.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAYwDMAAAA6AAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\dataTx.cs",
+              "RelativeDocumentMoniker": "..\\dataTxC#\\dataTx.cs",
+              "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\dataTx.cs*",
+              "RelativeToolTip": "..\\dataTxC#\\dataTx.cs*",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T05:29:37.217Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\Program.cs",
-              "RelativeDocumentMoniker": "..\\dataTxC#\\Program.cs",
-              "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\Program.cs",
-              "RelativeToolTip": "..\\dataTxC#\\Program.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-01T06:42:40.697Z",
+              "WhenOpened": "2025-10-02T05:44:59.805Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "dataRx.cs",
+              "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\dataRx.cs",
+              "RelativeDocumentMoniker": "dataRx.cs",
+              "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\dataRx.cs",
+              "RelativeToolTip": "dataRx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T05:44:56.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Packet.cs",
+              "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\Packet.cs",
+              "RelativeDocumentMoniker": "..\\dataTxC#\\Packet.cs",
+              "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataTxC#\\Packet.cs",
+              "RelativeToolTip": "..\\dataTxC#\\Packet.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-02T02:01:05.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Packet.cs",
               "DocumentMoniker": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\Packet.cs",
               "RelativeDocumentMoniker": "Packet.cs",
               "ToolTip": "C:\\Users\\DSO9\\Documents\\LIG\uB125\uC2A4\uC6D0\uC784\uBCA0\uB514\uB4DCSW\uC2A4\uCFE8\\FINAL\\dataRxTest\\dataRxC#\\Packet.cs",
               "RelativeToolTip": "Packet.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA4AAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-01T05:32:01.826Z",
               "EditorCaption": ""
