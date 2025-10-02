@@ -21,4 +21,20 @@ public class Packet
 
         return buffer;
     }
+
+    public Packet Deserialize(byte[] data)
+    {
+        if (data.Length != 256) throw new ArgumentException("Invalid packet size");
+
+        var span = data.AsSpan();
+        if (BitConverter.IsLittleEndian)
+        {
+            span.Slice(0, 4).Reverse();
+            span.Slice(4, 8).Reverse();
+        }
+        Seq = BitConverter.ToUInt32(span.Slice(0, 4));
+        Timestamp = BitConverter.ToUInt64(span.Slice(4, 8));
+        Content = span.Slice(12, 244).ToArray();
+        return this;
+    }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dataRxC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a2a3bcfa889ac68de354bb8d0ce572e3499c900f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+202366e0d31d6198a03ece03f2aee2e6762a113e")]
 [assembly: System.Reflection.AssemblyProductAttribute("dataRxC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dataRxC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

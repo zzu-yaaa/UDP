@@ -57,6 +57,11 @@ class dataTx
             }
         }
 
+        string msg = "END";
+        byte[] endMsg = Encoding.UTF8.GetBytes(msg);
+        s.SendTo(endMsg, ep);
+        s.Close();
+
         sw.Stop();
 
         Console.WriteLine("데이터 송신 종료, {0} seconds", sw.ElapsedMilliseconds / 1000);
