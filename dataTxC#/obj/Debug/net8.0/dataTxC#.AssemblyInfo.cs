@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dataTxC#")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+202366e0d31d6198a03ece03f2aee2e6762a113e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bea1d04e7e20529b5a043d4b866f05f83111a63")]
 [assembly: System.Reflection.AssemblyProductAttribute("dataTxC#")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dataTxC#")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

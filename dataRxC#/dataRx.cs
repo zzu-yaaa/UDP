@@ -4,24 +4,24 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 
-class dataTx
+class dataRx
 {
     const string serverIp = "127.0.0.1";
-    const int serverPort = 9999;
+    const int serverPort = 8888;
 
     static Dictionary<int, int> dup = new Dictionary<int, int>();
     static Dictionary<int, long> latency = new Dictionary<int, long>();
 
     private static void StartListener()
     {
-        Console.WriteLine("데이터 수신 시작");
+        Console.WriteLine("C# 데이터 수신 시작");
 
         // (1) UdpClient 객체 성성 및 연결
         UdpClient udpClient = new UdpClient(serverPort);
         IPEndPoint groupEP = new IPEndPoint(IPAddress.Any, serverPort);
 
         var sw = Stopwatch.StartNew();
-        long lastReceiveTime = sw.ElapsedMilliseconds; //현재 스톱워치 틱
+
         try
         {
             while (true)
@@ -30,6 +30,7 @@ class dataTx
                 byte[] bytes = udpClient.Receive(ref groupEP);
                 if (bytes.Length != 256)
                 {
+                    Console.WriteLine("Invalid packet size, stopping listener.");
                     break;
                 }
 
@@ -38,9 +39,6 @@ class dataTx
                 Console.WriteLine("  Seq: {0}, Timestamp: {1}", packet.Seq, packet.Timestamp);
                 dup.Add((int)packet.Seq, dup.ContainsKey((int)packet.Seq) ? dup[(int)packet.Seq] + 1 : 1);
                 latency.Add((int)packet.Seq, (long)(DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() - (long)packet.Timestamp));
-
-
-                lastReceiveTime = sw.ElapsedMilliseconds;
             }
         }
         catch (SocketException e)

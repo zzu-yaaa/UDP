@@ -1,0 +1,5 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataRxCpp\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  dataRxCpp.cpp
+  dataRxCpp.vcxproj -> C:\Users\DSO9\Documents\LIG넥스원임베디드SW스쿨\FINAL\dataRxTest\dataRxC#\x64\Debug\dataRxCpp.exe
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.

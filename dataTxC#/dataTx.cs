@@ -6,23 +6,25 @@ using System.Text;
 
 class dataTx
 {
-    const int PacketSize = 256;
-    const int Hz = 500;                  // 2ms
-    const int DurationSec = 60;          // 60s
+    const int Hz = 500;
+    const int DurationSec = 600;
     const int TotalPackets = Hz * DurationSec;
-    
-    const string clientIp = "127.0.0.1";
-    const int clientPort = 9999;
+
+    // 데이터를 보낼 서버의 IP 주소와 포트 번호
+    const string serverIp = "127.0.0.1";
+    const int serverPort = 8888;
 
     static void Main(string[] args)
     {
         Console.WriteLine("데이터 송신 시작");
 
+        // UDP 소켓 생성
         Socket s = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
         s.EnableBroadcast = true;
 
-        IPAddress broadcast = IPAddress.Parse(clientIp);
-        IPEndPoint ep = new IPEndPoint(broadcast, clientPort);
+        // 서버의 IP와 포트 정보를 담은 객체 생성 (설정)
+        IPAddress broadcast = IPAddress.Parse(serverIp);
+        IPEndPoint ep = new IPEndPoint(broadcast, serverPort);
 
         var sw = Stopwatch.StartNew();
         long nextDeadline = sw.ElapsedTicks; //현재 스톱워치 틱
@@ -30,7 +32,7 @@ class dataTx
         double ticksPerMs = Stopwatch.Frequency / 1000.0; // 1ms 당 틱 수
         long intervalTicks = (long)(2 * ticksPerMs); // 2ms 간격
 
-        // (2) 데이터 송신
+        // 데이터 송신
         for (int i = 0; i < TotalPackets; i++)
         {
             Packet packet = new Packet
@@ -57,12 +59,13 @@ class dataTx
             }
         }
 
+        sw.Stop();
+
+
         string msg = "END";
         byte[] endMsg = Encoding.UTF8.GetBytes(msg);
         s.SendTo(endMsg, ep);
         s.Close();
-
-        sw.Stop();
 
         Console.WriteLine("데이터 송신 종료, {0} seconds", sw.ElapsedMilliseconds / 1000);
     }

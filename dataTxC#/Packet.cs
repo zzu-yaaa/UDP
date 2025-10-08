@@ -6,6 +6,7 @@ public class Packet
     public UInt64 Timestamp { get; set; }
     public byte[] Content { get; set; } = new byte[244];
 
+    // 빅엔디안으로 직렬화
     public byte[] Serialize()
     {
         var buffer = new byte[256];
